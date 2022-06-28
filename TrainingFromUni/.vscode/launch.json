@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainFrazione",
+            "request": "launch",
+            "mainClass": "frazione1.controller.MainFrazione",
+            "projectName": "TrainingFromUni_3ea2f357"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainFrazione(1)",
+            "request": "launch",
+            "mainClass": "frazione2.controller.MainFrazione",
+            "projectName": "TrainingFromUni_3ea2f357"
+        },
+        {
+            "type": "java",
+            "name": "Launch FrazioneTest",
+            "request": "launch",
+            "mainClass": "frazione2.frazioneUnitTest.FrazioneTest",
+            "projectName": "TrainingFromUni_3ea2f357",
+            "vmArgs": "-ea"
+        }
+    ]
+}
